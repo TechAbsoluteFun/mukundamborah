@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukunda - Portfolio website </title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- header site --------------------------------------------->
+
+    <header>
+        <div class="logo"><span>Port</span>folio.</div>
+        <ul class="navlist">
+            <li><a href="#home" style="--i:1;">Home</a></li>
+            <li><a href="#about" style="--i:2;">About</a></li>
+            <li><a href="#services" style="--i:3;">Services</a></li>
+            <li><a href="#skills" style="--i:4;">Skills</a></li>
+            <li><a href="#portfolio" style="--i:5;">Portfolio</a></li>
+            <li><a href="#contact" style="--i:6;">Contact</a></li>
+        </ul>
+        <div id="menu-icon" class="bx bx-menu"></div>
+    </header>
+
+    <!-- home section -------------------------------------------->
+
+    <section id="home" class="home">
+        <div class="home-content scroll-scale">
+            <h1>Hi! I'm Mukunda</h1>
+            <div class="change-text">
+                <h3>And I'm</h3>
+                <h3>
+                    <span class="word">Frontend&nbsp;Developer</span>
+                    <span class="word">Web&nbsp;Designer</span>
+                    <span class="word">Fullstack&nbsp;Developer</span>
+                    <span class="word">Frontend&nbsp;Developer</span>
+                    <span class="word">REACT&nbsp;Developer</span>
+                </h3>
+            </div>
+
+            <p>I'm passionate about creating great user experiences and have a strong understanding of usability and accessibility standards.</p>
+
+            <div class="info-box">
+                <div class="email-info">
+                    <h5>Email :</h5>
+                    <span>borah.mukunda96@gmail.com</span>
+                </div>
+                <!-- <div class="call-info">
+                    <h5>Phone :</h5>
+                    <span>+917002273545</span>
+                </div> -->
+            </div>
+
+             <div class="btn-box">
+                <a href="#" class="btn">Download CV</a>
+                <a href="#" class="btn">Hire Me!</a>
+             </div>
+
+             <div class="social-icons">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+             </div>
+        </div>
+
+        <!-- <div class="home-image">
+            <div class="img-box">
+                <img src="images/man3.png" alt="profile-picture">
+            </div> -->
+
+            <div class="home-img scroll-scale">
+                <div class="glowing-circle">
+                    <span></span>
+                    <span></span>
+                    <div class="image">
+                        <img src="images/man4.png" alt="Profile picture">
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="liquid-shape">
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                    <path fill="#12f7ff">
+                      <animate attributeName="d"
+                          dur="20000ms"
+                          repeatCount="indefinite"
+                          values="
+                          M472.5,308Q450,366,403.5,401Q357,436,303.5,428.5Q250,421,208,408Q166,395,102.5,383.5Q39,372,30,311Q21,250,58.5,205.5Q96,161,120.5,115Q145,69,197.5,39Q250,9,295.5,51Q341,93,370,128.5Q399,164,447,207Q495,250,472.5,308Z;
+                         
+                          M413,289Q386,328,369,377Q352,426,301,428.5Q250,431,198,430.5Q146,430,117.5,386.5Q89,343,94,296.5Q99,250,92,202.5Q85,155,105,94.5Q125,34,187.5,65.5Q250,97,293,98.5Q336,100,391.5,118Q447,136,443.5,193Q440,250,413,289Z;
+
+                          M461.5,301Q427,352,395.5,400Q364,448,307,430.5Q250,413,192.5,431Q135,449,88.5,409.5Q42,370,69,310Q96,250,101.5,209Q107,168,127.5,121Q148,74,199,86Q250,98,300,87Q350,76,371.5,121.5Q393,167,444.5,208.5Q496,250,461.5,301Z;
+
+                          M433,291.5Q393,333,381.5,395.5Q370,458,310,459Q250,460,207.5,429Q165,398,128,370Q91,342,83.5,296Q76,250,59,190Q42,130,86,86Q130,42,190,35Q250,28,292,66Q334,104,386.5,122.5Q439,141,456,195.5Q473,250,433,291.5Z;
+
+                          M412.5,295.5Q408,341,367.5,362Q327,383,288.5,413.5Q250,444,197,439Q144,434,96.5,400Q49,366,30,308Q11,250,57.5,208Q104,166,117.5,104.5Q131,43,190.5,27.5Q250,12,295.5,52Q341,92,377,124Q413,156,415,203Q417,250,412.5,295.5Z;
+
+                          M417,303Q433,356,400.5,405.5Q368,455,309,434.5Q250,414,209.5,402.5Q169,391,131,365.5Q93,340,88,295Q83,250,61,189Q39,128,102.5,116.5Q166,105,208,66Q250,27,290.5,68Q331,109,363,137.5Q395,166,398,208Q401,250,417,303Z;
+
+                          M472.5,308Q450,366,403.5,401Q357,436,303.5,428.5Q250,421,208,408Q166,395,102.5,383.5Q39,372,30,311Q21,250,58.5,205.5Q96,161,120.5,115Q145,69,197.5,39Q250,9,295.5,51Q341,93,370,128.5Q399,164,447,207Q495,250,472.5,308Z;
+                          
+                          "
+                     ></animate>
+                    </path>
+                   </svg>
+            </div>
+
+            <div class="liquid-shape">
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                    <path fill="#12f7ff">
+                      <animate attributeName="d"
+                          dur="20000ms"
+                          repeatCount="indefinite"
+                          values="
+                          M472.5,308Q450,366,403.5,401Q357,436,303.5,428.5Q250,421,208,408Q166,395,102.5,383.5Q39,372,30,311Q21,250,58.5,205.5Q96,161,120.5,115Q145,69,197.5,39Q250,9,295.5,51Q341,93,370,128.5Q399,164,447,207Q495,250,472.5,308Z;
+                         
+                          M413,289Q386,328,369,377Q352,426,301,428.5Q250,431,198,430.5Q146,430,117.5,386.5Q89,343,94,296.5Q99,250,92,202.5Q85,155,105,94.5Q125,34,187.5,65.5Q250,97,293,98.5Q336,100,391.5,118Q447,136,443.5,193Q440,250,413,289Z;
+
+                          M461.5,301Q427,352,395.5,400Q364,448,307,430.5Q250,413,192.5,431Q135,449,88.5,409.5Q42,370,69,310Q96,250,101.5,209Q107,168,127.5,121Q148,74,199,86Q250,98,300,87Q350,76,371.5,121.5Q393,167,444.5,208.5Q496,250,461.5,301Z;
+
+                          M433,291.5Q393,333,381.5,395.5Q370,458,310,459Q250,460,207.5,429Q165,398,128,370Q91,342,83.5,296Q76,250,59,190Q42,130,86,86Q130,42,190,35Q250,28,292,66Q334,104,386.5,122.5Q439,141,456,195.5Q473,250,433,291.5Z;
+
+                          M412.5,295.5Q408,341,367.5,362Q327,383,288.5,413.5Q250,444,197,439Q144,434,96.5,400Q49,366,30,308Q11,250,57.5,208Q104,166,117.5,104.5Q131,43,190.5,27.5Q250,12,295.5,52Q341,92,377,124Q413,156,415,203Q417,250,412.5,295.5Z;
+
+                          M417,303Q433,356,400.5,405.5Q368,455,309,434.5Q250,414,209.5,402.5Q169,391,131,365.5Q93,340,88,295Q83,250,61,189Q39,128,102.5,116.5Q166,105,208,66Q250,27,290.5,68Q331,109,363,137.5Q395,166,398,208Q401,250,417,303Z;
+
+                          M472.5,308Q450,366,403.5,401Q357,436,303.5,428.5Q250,421,208,408Q166,395,102.5,383.5Q39,372,30,311Q21,250,58.5,205.5Q96,161,120.5,115Q145,69,197.5,39Q250,9,295.5,51Q341,93,370,128.5Q399,164,447,207Q495,250,472.5,308Z;
+                          
+                          "
+                     ></animate>
+                    </path>
+                   </svg>
+            </div> -->
+       
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTIONS---------------------------- -->
+
+    <section id="about" class="about">
+        <div class="img-about scroll-scale">
+            <img src="images/my-image.png" alt="my-about">
+            <div class="info-about1">
+                <span>1+</span>
+                <p>Years of Experience</p>
+            </div>
+            <div class="info-about2">
+                <span>10+</span>
+                <p>Projects Complete</p>
+            </div>
+            <div class="info-about3">
+                <span>10+</span>
+                <p>Technology Learnt</p>
+            </div>
+        </div>
+
+        <div class="about-content scroll-scale">
+            <span>Let me introduce myself</span>
+            <h2>About me</h2>
+            <h3>A Story of good</h3>
+            <p>Hi There, I’m Mukunda Madhab Bora and i am Front-End Web Developer. It's been 2 years, I’m working as web developer.
+                i have developed many website and also provided my services to college students by getting their projects ready as 
+                soon as possible as a freelancer I have been part of some very good web design projects.
+
+                I have done my graduation(BCA) in Computer Science. There after, i have done my postgraduation(MCA) from RGU.
+                I have also completed MTech in Computer Science so that I get intensive knowledge in this domain. 
+                I wanted to join this programme due to my strong passion and interest in this domain.
+                
+                My Skill Sets are HTML5, CSS3, JavaScript, TypeScript, ReactJs, NodeJs, MongoDB, GIT.
+                
+                I'm also learning Back-End Development and looking forward to be a Full Stack Web Developer.</p>
+
+
+                <div class="btn-box">
+                    <a href="#" class="btn">Read More</a>
+                </div>
+        </div>
+    </section>
+
+
+<!-- ............services section................. -->
+
+<section id="services" class="services">
+    <div class="main-text scroll-scale">
+        <span>What i will do for you</span>
+        <h2>Our Services</h2>
+    </div>
+
+    <div class="section-services scroll-bottom">
+        <div class="service-box">
+            <i class="bx bxs-layer service-icon"></i>
+            <h3>Graphic Designer</h3>
+            <p>
+                A graphic designer is a professional within the graphic design and 
+                graphic arts industry who assembles together images, typography, or
+                 motion graphics to create a piece of design. 
+            </p>
+
+            <div class="btn-box service-btn">
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <i class="bx bx-code-alt service-icon"></i>
+            <h3>Website Designer</h3>
+            <p>
+                Web Designers create and build websites and web pages by combining 
+                any number of visual design elements including text, photos, graphics, animations and videos.  
+            </p>
+
+            <div class="btn-box service-btn">
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <i class="bx bx-desktop service-icon"></i>
+            <h3>App Development</h3>
+            <p>
+                Application development is the process of gathering business requirements, designing, prototyping, 
+                coding, testing and ongoing improvements and debugging of software.
+            </p>
+
+            <div class="btn-box service-btn">
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- .................skills section...................  -->
+
+<section id="skills" class="skills">
+    <div class="main-text scroll-scale">
+        <span>technical and professional</span>
+        <h2>My Skills</h2>
+    </div>
+
+    <div class="skill-main">
+        <div class="skill-left scroll-scale">
+            <h3>Technical Skills</h3>
+            <div class="skill-bar">
+                <div class="info">
+                    <p>HTML</p>
+                    <p>80%</p>
+                </div>
+                <div class="bar">
+                    <span class="html"></span>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="info">
+                    <p>CSS</p>
+                    <p>70%</p>
+                </div>
+                <div class="bar">
+                    <span class="css"></span>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="info">
+                    <p>JavaScript</p>
+                    <p>60%</p>
+                </div>
+                <div class="bar">
+                    <span class="javascript"></span>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="info">
+                    <p>ReactJS</p>
+                    <p>90%</p>
+                </div>
+                <div class="bar">
+                    <span class="reactjs"></span>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="info">
+                    <p>NodeJs</p>
+                    <p>72%</p>
+                </div>
+                <div class="bar">
+                    <span class="nodejs"></span>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="info">
+                    <p>GIT</p>
+                    <p>85%</p>
+                </div>
+                <div class="bar">
+                    <span class="git"></span>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="skill-right">
+            <h3>Professional Skills</h3>
+            <div class="professional">
+                <div class="box">
+                    <div class="circle" data-dots="80" data-percent="90"> </div>
+                    <div class="text">
+                        <big>90%</big>
+                        <small>Team Work</small>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="circle" data-dots="80" data-percent="80"> </div>
+                    <div class="text">
+                        <big>80%</big>
+                        <small>Creativity</small>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="circle" data-dots="80" data-percent="55"> </div>
+                    <div class="text">
+                        <big>55%</big>
+                        <small>Project Management</small>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="circle" data-dots="80" data-percent="70"> </div>
+                    <div class="text">
+                        <big>70%</big>
+                        <small>Communication</small>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- // portfolio section ........................  -->
+
+<section id="portfolio" class="portfolio">
+    <div class="main-text scroll-scale">
+        <span>What i will do for you</span>
+        <h2>Latest Projects</h2>
+    </div>
+
+    <div class="container">
+        <div class="filter-buttons scroll-scale">
+            <button class="button" data-filter= "all">All</button>
+            <button class="button" data-filter= ".product">Product</button>
+            <button class="button" data-filter= ".inter">Interacting</button>
+            <button class="button" data-filter= ".web">Web App</button>
+        </div>
+
+    <div class="portfolio-gallery scroll-bottom">
+        <div class="port-box mix product">
+            <div class="port-image">
+                <img src="images/1.jpg" alt="">
+            </div>
+
+            <div class="port-content">
+                 <h3>Graphic Design</h3>
+                 <p>
+                    Designers use typography and picturesto focus on the logic of displaying 
+                    elements in interactive designs, to optimize the user experience.
+                 </p>
+                 <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="port-box mix product">
+            <div class="port-image">
+                <img src="images/2.jpg" alt="">
+            </div>
+
+            <div class="port-content">
+                 <h3>Graphic Design</h3>
+                 <p>
+                    Designers use typography and picturesto focus on the logic of displaying 
+                    elements in interactive designs, to optimize the user experience.
+                 </p>
+                 <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="port-box mix inter">
+            <div class="port-image">
+                <img src="images/3.jpg" alt="">
+            </div>
+
+            <div class="port-content">
+                 <h3>Graphic Design</h3>
+                 <p>
+                    Designers use typography and picturesto focus on the logic of displaying 
+                    elements in interactive designs, to optimize the user experience.
+                 </p>
+                 <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="port-box mix inter">
+            <div class="port-image">
+                <img src="images/4.jpg" alt="">
+            </div>
+
+            <div class="port-content">
+                 <h3>Graphic Design</h3>
+                 <p>
+                    Designers use typography and picturesto focus on the logic of displaying 
+                    elements in interactive designs, to optimize the user experience.
+                 </p>
+                 <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="port-box mix inter">
+            <div class="port-image">
+                <img src="images/5.jpg" alt="">
+            </div>
+
+            <div class="port-content">
+                 <h3>Graphic Design</h3>
+                 <p>
+                    Designers use typography and picturesto focus on the logic of displaying 
+                    elements in interactive designs, to optimize the user experience.
+                 </p>
+                 <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="port-box mix web">
+            <div class="port-image">
+                <img src="images/6.jpg" alt="">
+            </div>
+
+            <div class="port-content">
+                 <h3>Graphic Design</h3>
+                 <p>
+                    Designers use typography and picturesto focus on the logic of displaying 
+                    elements in interactive designs, to optimize the user experience.
+                 </p>
+                 <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</section>
+
+
+<!-- .................. contact section ..................  -->
+
+<section id="contact" class="contact">
+    <div class="main-text scroll-scale">
+        <span>Ask me question</span>
+        <h2>Contact Me</h2>
+    </div>
+
+    <form action="#" class="scroll-bottom">
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Your Email">
+        <input type="text" placeholder="Your Address">
+        <input type="number" placeholder="Phone Number">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <div class="btn-box formBtn">
+            <button type="submit" class="btn">Send Message</button>
+        </div>
+    </form>
+</section>
+
+
+<!-- /////////////////// footer website /////////////////////////  -->
+
+<footer>
+    <p class="scroll-scale">Copyright &copy; 2023 by Mukunda Madhab borah || All Right Reserved.</p>
+    <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+</footer>
+
+    <script src="mixitup.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
